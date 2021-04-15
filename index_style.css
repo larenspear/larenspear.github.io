@@ -1,0 +1,23 @@
+p {
+    color:#1E2D2F;
+}
+
+body {
+    background-color:#F7DBA7;
+}
+
+a {
+    color:#C57B57;
+}
+
+a:hover {
+    color:#e75a7cff;
+}
+
+.left {
+    text-align:left;
+}
+
+.right {
+    text-align:left;
+    float:right;
