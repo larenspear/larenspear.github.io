@@ -15,9 +15,18 @@ a:hover {
 }
 
 .left {
-    text-align:left;
+	float: left;
+    width: 30%;
+	padding-left: 100px;
+	padding-right: 50px;
+	padding-top: 50px;
 }
 
 .right {
-    text-align:left;
     float:right;
+    width: 65%;
+	padding-left: 50px;
+	padding-right: 100px;
+	padding-top: 50px;
+}
+
