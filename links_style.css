@@ -10,14 +10,10 @@ table {
     margin-left:auto;
     margin-right:auto;
     width:80%;
-    border-collapse: collapse;
 }
 
-table, th, td {
-    border:1px solid black;
-}
+td {
+    vertical-align:middle;
 
-th, td {
-  padding-top:20px;   
 }
 
