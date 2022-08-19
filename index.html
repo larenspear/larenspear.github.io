@@ -9,13 +9,12 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
-    <meta name="author" content="Rishab Khincha">
+    <meta name="author" content="Laren Spear">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Description" content="Laren Spear">
     <meta name="keywords" content="Laren Spear">
 
     <!-- <link rel="stylesheet" type="text/css" href="stylesheet.css"> -->
-    <link rel="icon" type="image/png" href="images/RK.png">
 </head>
 <body class="bg_colour">
 
@@ -76,6 +75,15 @@
 
                 <table border=0 class="bg_colour" style="padding:10px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+
+                    <tr>
+                        <td>
+                            <p style="color:darkblue; display:inline">May '22 &nbsp;</p>
+                        </td>
+                        <td>
+                            I started my internship at Pacific Northwest National Lab!
+                        </td>
+                    </tr>
                     <tr>
                         <td>
                             <p style="color:darkblue; display:inline">March '22 &nbsp;</p>
@@ -90,7 +98,7 @@
                             <p style="color:darkblue; display:inline">August '21 &nbsp;</p>
                         </td>
                         <td>
-                            Started grad school at A&amp;M!
+                            I started grad school at A&amp;M!
                         </td>
                     </tr>
                 </tbody></table>
@@ -108,7 +116,22 @@
                     <tr>
                         <td style="padding:10px;width:25%;vertical-align:middle">
                             <div class="one">
-                                <img src='images/TAM-LogoBox.png' width="120">
+                                <img src='images/pnnl-logo.jpg' width="120">
+                            </div>
+                        </td>
+                        <td style="padding:10px;width:75%;vertical-align:top">
+                            <papertitle style="color:gray"><big>Software Engineering Intern</big> </papertitle> <papertitle ><big> | Pacific Northwest National Lab</big></papertitle>
+                            <br>
+                            May '22 - August '22
+                            <br>
+                            <br>
+                            <p>Wrote a C# API to automate code deployment through Azure DevOps.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:0px;width:25%;vertical-align:middle">
+                            <div class="one">
+                                <img src='images/TAM-LogoBox.png' width="150">
                             </div>
                         </td>
                         <td style="padding:10px;width:75%;vertical-align:top">
@@ -122,9 +145,9 @@
                     </tr>
 
                     <tr>
-                        <td style="padding:10px;width:25%;vertical-align:middle">
+                        <td style="padding:0px;width:25%;vertical-align:middle">
                             <div class="one">
-                                <img src='images/TAM-LogoBox.png' width="120">
+                                <img src='images/TAM-LogoBox.png' width="150">
                             </div>
                         </td>
                         <td style="padding:10px;width:75%;vertical-align:top">
@@ -252,7 +275,7 @@
                             January '22 - Present
                             <br>
                             <br>
-                            <p>I present biweekly workshops on topics such as SQL, Python data analysis libraries, and applied machine learning.</p>
+                            <p>I present biweekly workshops on topics such as SQL, Python data analysis libraries, and applied machine learning. More about the club on the <a href="https://www.aggiedatascience.com/">Aggie Data Science Club website.</a></p>
                         </td>
                     </tr>
 
@@ -265,7 +288,7 @@
                 <button style="border:0px transparent; background-color: transparent;outline:none;"type="button" class="collapsible" data-toggle="collapse" data-target="#content-misc" id="misc"><heading>Miscellaneous</heading></button>
                 <div id="content-misc" class="collapse in">
 
-                <table border=0 class="bg_colour" style="padding:20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+                <table border=0 class="bg_colour" style="padding:20px;width:100%;border:0px;border-spacing:10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
                     <tr>
                         <td>
@@ -275,8 +298,17 @@
                             <img src="https://www.codewars.com/users/larenspear/badges/large">
                         </td>
                     </tr>
-
                 </tbody></table>
+
+                <ul>
+                    <li>I used to be a DJ, playing electronic music at clubs around Austin, Texas. I also had a weekly radio show on KVRX 91.7 FM. Past episodes can be found <a href='https://www.mixcloud.com/laren-spear/'> here.</a></li>
+                    <li>I worked at a craft cocktail bar in San Antonio, Texas called the <a href='https://mixed4u.com/'>RD Speakeasy.</a></li>
+                    <li>I used to be a semi-professional Super Smash Bros. Melee player and tournament organizer.</li>
+                    <li>At one point, I held a <a href='https://wrs.the-elite.net/goldeneye/recordlevel.php?level=5&pub=0'>world record</a> in Goldeneye 007 for the Nintendo 64 (like Wes McKinney!)</li>
+                    <li>I lived in Brighton, England on study abroad, and I wrote a <a href='https://lareninengland.wordpress.com/'>travel blog of my experiences.</a></li>
+                    <li>My first research experience was with the <a href='https://sites.cns.utexas.edu/wssp/home'>Welch Summer Scholars Program</a> when I was in high school. I did <a href='https://web.archive.org/web/20220413031607/https://www.uta.edu/cos/newsletter/archnewsletter43.php'>chemistry research.</a></li>
+                </ul>
+
                 </div>
                 <hr class="soft">
 
