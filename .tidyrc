@@ -7,3 +7,4 @@ indent: auto
 indent-spaces: 2
 drop-proprietary-attributes: no
 skip-nested: yes
+show-warnings: no

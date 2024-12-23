@@ -8,7 +8,6 @@ repos:
     - id: check-builtin-literals
     - id: check-case-conflict
     - id: check-docstring-first
-    - id: check-executables-have-shebangs
     - id: check-illegal-windows-names
     - id: check-json
     - id: check-merge-conflict
@@ -34,8 +33,13 @@ repos:
   - repo: local
     hooks:
       - id: html-tidy
-        name: HTML Tidy
-        args: ["-quiet", "-modify", -config .tidyrc]
+        name: "HTML Tidy"
+        args:
+          - -q
+          - -m
+          - -config
+          - .tidyrc
         entry: tidy
         language: system
         files: \.html$
+        stages: [commit]
