@@ -1,0 +1,10 @@
+repos:
+  - repo: https://github.com/htacg/tidy-html5
+    rev: 5.8.0
+    hooks:
+      - id: html-tidy
+        name: HTML Tidy
+        entry: ./build/cmake/tidy
+        args: ["-quiet", "-modify", -config .tidyrc]
+        language: system
+        files: \.html$
