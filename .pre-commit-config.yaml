@@ -1,10 +1,41 @@
 repos:
-  - repo: https://github.com/htacg/tidy-html5
-    rev: 5.8.0
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+    - id: trailing-whitespace
+    - id: check-added-large-files
+    - id: check-ast
+    - id: check-builtin-literals
+    - id: check-case-conflict
+    - id: check-docstring-first
+    - id: check-executables-have-shebangs
+    - id: check-illegal-windows-names
+    - id: check-json
+    - id: check-merge-conflict
+    - id: check-shebang-scripts-are-executable
+    - id: check-symlinks
+    - id: check-toml
+    - id: check-vcs-permalinks
+    - id: check-xml
+    - id: check-yaml
+    - id: debug-statements
+    - id: destroyed-symlinks
+    - id: detect-private-key
+    - id: double-quote-string-fixer
+    - id: end-of-file-fixer
+    - id: file-contents-sorter
+    - id: fix-byte-order-marker
+    - id: mixed-line-ending
+    - id: name-tests-test
+    - id: pretty-format-json
+    - id: requirements-txt-fixer
+    - id: sort-simple-yaml
+    - id: trailing-whitespace
+  - repo: local
     hooks:
       - id: html-tidy
         name: HTML Tidy
-        entry: ./build/cmake/tidy
         args: ["-quiet", "-modify", -config .tidyrc]
+        entry: tidy
         language: system
         files: \.html$
